@@ -15,8 +15,21 @@
 
 .navbar {
     min-width: 241px;
+    background-color: white;
     background-image: url(../images/header-texture.png);
+    border-bottom:none;
 }
+
+.navbar::after {
+    content: "";
+    height: 10px;
+    width: 100%;
+    background-image: url(../images/top.png);
+    background-repeat: repeat-x;
+    position: relative;
+    top: 0px;
+}
+
 
 .navbar .container-fluid {
     background-image: url(../images/header-texture.png);
@@ -66,24 +79,7 @@ background-color: aqua;
 background-image: url(../images/ipt10HlJzdk.jpg) !important;}
 */
 
-.news {
-    background-color: lightgray;
-    height: auto;
-    overflow: hidden;
-    color: darkslategrey;
-    border: solid 5px grey;
-    box-sizing: border-box;
-    padding: 10px 5px;
-}
 
-.news h3 {
-    text-shadow: none;
-}
-
-.news a {
-    color: darkorange;
-    text-decoration: none;
-}
 
 
 /*footer*/
@@ -206,6 +202,45 @@ body {
     font-family: g;
     color: #040404;}
 .a-gall:hover {color: #cfaa34;}
+
+
+
+/* фон страницы в блоге*/
+
+
+.fon-blog {background-image: url(../images/white-texture.png);}
+
+
+
+/* blog */
+
+.news {
+    height: auto;
+    overflow: hidden;
+    background-color: white;
+    color: darkslategrey;
+    border: dotted 1px #E6E6E6;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    margin:  0 0 1% 0 ;  
+    box-shadow: 0.1px 1px 6px rgba(0,0,0,0.5);
+     border-radius: 4px;
+}
+
+.news h3 {
+    text-shadow: none;
+}
+
+.n-link {
+    color: #cfaa34;
+    text-decoration: none;
+    border: 1px solid #E6E6E6;);
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.n-link:hover {background-color:#cfaa34;
+text-decoration: none;}
 
 
 
