@@ -1,0 +1,218 @@
+@font-face {
+    font-family: g;
+    /* Имя шрифта */
+    src: url('Comfortaa-Bold.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: hard;
+    /* Имя шрифта */
+    src: url('ComfortaaLight.ttf');
+    /* Путь к файлу со шрифтом */
+}
+
+
+.navbar {
+    min-width: 241px;
+    background-image: url(../images/header-texture.png);
+}
+
+.navbar .container-fluid {
+    background-image: url(../images/header-texture.png);
+}
+
+.log,
+.navbar-brand {
+    font-family: g;
+}
+
+.navbar li {
+    font-family: 'hard';
+}
+
+
+
+.main {
+/*    background-color: aqua;*/
+    margin: 0;
+/*    background-image: url(../images/L0WhbsKkL2E.jpg);*/
+    background-size: 100%;
+    position: relative;
+    background-position: bottom;
+    top: -21px;
+}
+
+
+/*
+
+.row {background-color: gray;
+background-image: url(/img/2.PNG);}
+.div {background-color: antiquewhite;}
+*/
+
+.navbar-default .navbar-brand span {
+    color: #cfaa34;
+}
+
+
+/*
+.main-about{background-color: gray;
+color: white;
+background-image: url(../img/2.PNG);}
+.r{width: 100%;
+height:200px;
+background-color: aqua;
+background-image: url(../images/ipt10HlJzdk.jpg) !important;}
+*/
+
+.news {
+    background-color: lightgray;
+    height: auto;
+    overflow: hidden;
+    color: darkslategrey;
+    border: solid 5px grey;
+    box-sizing: border-box;
+    padding: 10px 5px;
+}
+
+.news h3 {
+    text-shadow: none;
+}
+
+.news a {
+    color: darkorange;
+    text-decoration: none;
+}
+
+
+/*footer*/
+
+.fon-footer {
+    background-image: url(../images/footer-bg.png);
+}
+
+.fon-forest {
+    background-image: url(../images/footer-trees.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.f-menu {padding-bottom: 10px;}
+.footer .col-md-12 a,
+.footer .col-md-12 p,
+.cop h5 {
+    font-family: 'hard';
+    color: #7d7d7e;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.footer .col-md-12 a:hover {
+    color: #cfaa34;
+}
+
+
+
+.footer {
+    padding-top: 35px;
+    
+}
+
+.footer::before {
+    content: "";
+    height: 10px;
+    width: 100%;
+    background-image: url(../images/black-edge-top-light.png);
+    background-repeat: repeat-x;
+    position: relative;
+    top: -40px;
+}
+
+.footer .col-md-12 {
+    padding-bottom: 3px;
+}
+
+.footer i {
+    font-size: 200%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.cop h5 {
+    padding-top: 15px;
+}
+
+.footer .f-logo>p,
+.footer .col-md-12 .seti {
+    font-family: 'g';
+    font-weight: 100;
+    color: #eeeeee;
+}
+
+.i {
+    display: inline-block;
+    height: 29px;
+    width: 29px;
+    background-image: url(../images/icon.png);
+    margin-left: 5px;
+}
+.i-f {
+    background-position: -36px 0px;  
+}
+
+.i-f:hover {
+    background-position: -0px 0px;  
+}
+.i-v{
+    background-position: -37px -30px;
+}
+.i-v:hover{
+    background-position: 0px -30px;
+}
+.i-i {
+    background-position: -37px -60px;
+}
+
+.i-i:hover {
+    background-position: 0px -60px;
+}
+
+.i-t {
+    background-position: -37px -90px;
+}
+.i-t:hover {
+    background-position: 0px -90px;
+}
+body {
+    min-width: 200px;
+}
+
+
+
+
+/* галлерея*/
+
+.active-with-click,
+
+.active-with-click a {
+    font-family: hard;
+    text-decoration: none;
+}
+
+.active-with-click h2 {font-family: g;}
+
+.mc-description {
+    font-family: g;
+    color: #040404;}
+.a-gall:hover {color: #cfaa34;}
+
+
+
+
+
+
+
+
+
+
