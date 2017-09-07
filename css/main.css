@@ -25,9 +25,11 @@
     height: 10px;
     width: 100%;
     background-image: url(../images/top.png);
+
     background-repeat: repeat-x;
     position: relative;
     top: 0px;
+    left: 0;
 }
 
 
@@ -55,6 +57,15 @@
     background-position: bottom;
     top: -21px;
 }
+
+.slogan {width: 100%;
+background-color: #232323;;
+    background-image:  url(../images/white-bg.png);
+padding:2%;
+}
+.slogan h4{color: black;;
+text-shadow: none;
+    font-family: g;}
 
 
 /*
@@ -118,11 +129,12 @@ background-image: url(../images/ipt10HlJzdk.jpg) !important;}
 .footer::before {
     content: "";
     height: 10px;
-    width: 100%;
+    width: 1000%;
     background-image: url(../images/black-edge-top-light.png);
     background-repeat: repeat-x;
     position: relative;
     top: -40px;
+    left:  -300px;
 }
 
 .footer .col-md-12 {
