@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: g;
     /* Имя шрифта */
     src: url('Comfortaa-Bold.ttf');
@@ -38,11 +38,14 @@
 }
 
 .log,
-.navbar-brand {
+.navbar-brand,
+.main h2, .main h4
+{
     font-family: g;
 }
 
-.navbar li {
+.navbar li
+{
     font-family: 'hard';
 }
 
@@ -56,6 +59,8 @@
     position: relative;
     background-position: bottom;
     top: -21px;
+    background-image: url(../images/white-bg.png);
+color: black;
 }
 
 .slogan {width: 100%;
@@ -63,9 +68,16 @@ background-color: #232323;;
     background-image:  url(../images/white-bg.png);
 padding:2%;
 }
-.slogan h4{color: black;;
+.slogan h4{color: black;
 text-shadow: none;
     font-family: g;}
+
+.m-img img {width: 100%;
+}
+.m-img  {background-image: url(../images/white-bg.png)}
+
+
+.main h2, .main h4 {text-shadow: none;}
 
 
 /*
@@ -201,11 +213,15 @@ body {
 
 /* галлерея*/
 
+.active-with-click h2, .a-gall,
+.material-card span,  h4{text-shadow: none;}
+
 .active-with-click,
 
 .active-with-click a {
     font-family: hard;
     text-decoration: none;
+   
 }
 
 .active-with-click h2 {font-family: g;}
@@ -213,7 +229,10 @@ body {
 .mc-description {
     font-family: g;
     color: #040404;}
-.a-gall:hover {color: #cfaa34;}
+.a-gall{padding: 5px;
+border-radius: 4px;
+}
+.a-gall:hover {background-color: #cfaa34;}
 
 
 
@@ -281,10 +300,6 @@ text-decoration: none;}
 .col-md-8, .col-sm-8 {
     padding: 0 20px 10px 30px;
 }
-
-
-
-
 
 
 
