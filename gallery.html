@@ -7,10 +7,16 @@
     <meta name="msapplication-tap-highlight" content="no">
 
     <title>Material Cards | Simple Demo</title>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet'
+          type='text/css'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/dist/material-cards.css">
+    <!--<link rel="stylesheet" href="/dist/material-cards.css">-->
+    <link rel="stylesheet" href="dist/material-cards.css">
+
+    <link rel="stylesheet" href="css/gallery.css">
+
+
     <style type="text/css">
 
         html {
@@ -34,141 +40,77 @@
 </head>
 <body>
 <section class="container">
-    <div class="page-header">
-        <h1>Material cards<br>
-            <small>material cards with a simple jquery script</small></h1>
-    </div>
-    <div class="row active-with-click">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <article class="material-card Light-Green">
-                <h2>
-                    <span>gamerGhost art</span>
-                    <strong>
-                            <a href="#">Перейти к галлерее</a><i class="fa fa-fw fa-star"></i>
-                    </strong>
-                </h2>
-                <div class="mc-content">
-                    <div class="img-container">
-                        <img class="img-responsive" src="/img/2.PNG">
-                    </div>
-                    <div class="mc-description">
-                        В данном альбоме будут представлены основные мои работы на тему призраков и всего что с ними связано - мои рисунки и комиксы. Надеюсь вам понравится и добро пожаловать!
-                    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <!--<div class="container">-->
+            <!--<div class="row">-->
+            <section id="pinBoot">
+
+
+                <div class="item">
+                    <a data-fancybox="gallery" href="http://via.placeholder.com/3500x1500">
+                        <img src="http://via.placeholder.com/350x150" alt="1">
+                    </a>
                 </div>
-                <a class="mc-btn-action">
-                    <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                    <h4>
-                        Основной
-                    </h4>
-                    <a class="fa fa-fw fa-twitter"></a>
-                    <a class="fa fa-fw fa-linkedin"></a>
-                    <a class="fa fa-fw fa-google-plus"></a>
+                <div class="item">
+                    <a data-fancybox="gallery" href="http://via.placeholder.com/3500x2000" title="test">
+                        <img src="http://via.placeholder.com/350x200" alt="2" title="test">
+                    </a>
                 </div>
-            </article>
+                <div class="item"><img src="http://via.placeholder.com/350x300" alt="3"></div>
+                <div class="item"><img src="http://via.placeholder.com/300x250" alt="4"></div>
+                <div class="item"><img src="http://via.placeholder.com/350x150" alt="5"></div>
+                <div class="item"><img src="http://via.placeholder.com/300x150" alt="6"></div>
+                <div class="item"><img src="http://via.placeholder.com/350x100" alt="7"></div>
+                <div class="item"><img src="http://via.placeholder.com/300x150" alt="8"></div>
+                <div class="item"><img src="http://via.placeholder.com/350x150" alt="9"></div>
+                <div class="item"><img src="http://via.placeholder.com/350x150" alt="10"></div>
+
+            </section>
+            <hr>
         </div>
-        
-        
-        
-        
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <article class="material-card Grey">
-                <h2>
-                    <span>other art</span>
-                    <strong>
-                            <a href="#">Перейти к галлерее</a><i class="fa fa-fw fa-star"></i>
-                    </strong>
-                </h2>
-                <div class="mc-content">
-                    <div class="img-container">
-                        <img class="img-responsive" src="/img/2.PNG">
-                    </div>
-                    <div class="mc-description">
-                        He has won two Academy Awards, for his roles in the mystery drama Mystic River (2003) and the biopic Milk (2008). Penn began his acting career in television with a brief appearance in a 1974 episode of Little House on the Prairie ...
-                    </div>
-                </div>
-                <a class="mc-btn-action">
-                    <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                    <h4>
-                        Social
-                    </h4>
-                    <a class="fa fa-fw fa-facebook"></a>
-                    <a class="fa fa-fw fa-twitter"></a>
-                    <a class="fa fa-fw fa-linkedin"></a>
-                    <a class="fa fa-fw fa-google-plus"></a>
-                </div>
-            </article>
-        </div>
-        
-   
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <article class="material-card Grey">
-                <h2>
-                    <span>gamerGhost art</span>
-                    <strong>
-                            <a href="#">Перейти к галлерее</a><i class="fa fa-fw fa-star"></i>
-                    </strong>
-                </h2>
-                <div class="mc-content">
-                    <div class="img-container">
-                        <img class="img-responsive" src="/img/2.PNG">
-                    </div>
-                    <div class="mc-description">
-                        В данном альбоме будут представлены основные мои работы на тему призраков и всего что с ними связано - мои рисунки и комиксы. Надеюсь вам понравится и добро пожаловать!
-                    </div>
-                </div>
-                <a class="mc-btn-action">
-                    <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                    <h4>
-                        Основной
-                    </h4>
-                    <a class="fa fa-fw fa-facebook"></a>
-                    <a class="fa fa-fw fa-twitter"></a>
-                    <a class="fa fa-fw fa-linkedin"></a>
-                    <a class="fa fa-fw fa-google-plus"></a>
-                </div>
-            </article>
-        </div>
-       
+
+        <!--</div>-->
+        <!--</div>-->
     </div>
 </section>
-
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<link href="vendor/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+1
+<script src="vendor/mp-mansory/dist/mp.mansory.js"></script>
+
+<script src="js/gallery.js"></script>
 <script>
-    $(function() {
-        $('.material-card > .mc-btn-action').click(function () {
-            var card = $(this).parent('.material-card');
-            var icon = $(this).children('i');
-            icon.addClass('fa-spin-fast');
-
-            if (card.hasClass('mc-active')) {
-                card.removeClass('mc-active');
-
-                window.setTimeout(function() {
-                    icon
-                        .removeClass('fa-arrow-left')
-                        .removeClass('fa-spin-fast')
-                        .addClass('fa-bars');
-
-                }, 800);
-            } else {
-                card.addClass('mc-active');
-
-                window.setTimeout(function() {
-                    icon
-                        .removeClass('fa-bars')
-                        .removeClass('fa-spin-fast')
-                        .addClass('fa-arrow-left');
-
-                }, 800);
-            }
-        });
-    });
+    //    $(function () {
+    //        $('.material-card > .mc-btn-action').click(function () {
+    //            var card = $(this).parent('.material-card');
+    //            var icon = $(this).children('i');
+    //            icon.addClass('fa-spin-fast');
+    //
+    //            if (card.hasClass('mc-active')) {
+    //                card.removeClass('mc-active');
+    //
+    //                window.setTimeout(function () {
+    //                    icon
+    //                        .removeClass('fa-arrow-left')
+    //                        .removeClass('fa-spin-fast')
+    //                        .addClass('fa-bars');
+    //
+    //                }, 800);
+    //            } else {
+    //                card.addClass('mc-active');
+    //
+    //                window.setTimeout(function () {
+    //                    icon
+    //                        .removeClass('fa-bars')
+    //                        .removeClass('fa-spin-fast')
+    //                        .addClass('fa-arrow-left');
+    //
+    //                }, 800);
+    //            }
+    //        });
+    //    });
 </script>
 </body>
 </html>
