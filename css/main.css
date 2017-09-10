@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: g;
     /* Имя шрифта */
     src: url('Comfortaa-Bold.ttf');
@@ -29,7 +29,6 @@
     background-repeat: repeat-x;
     position: relative;
     top: 0px;
-    left: 0;
 }
 
 
@@ -47,6 +46,10 @@
 .navbar li
 {
     font-family: 'hard';
+}
+.navbar img {
+    width: 60px;
+    padding-top: 1px;
 }
 
 
@@ -80,27 +83,11 @@ text-shadow: none;
 .main h2, .main h4 {text-shadow: none;}
 
 
-/*
-
-.row {background-color: gray;
-background-image: url(/img/2.PNG);}
-.div {background-color: antiquewhite;}
-*/
-
 .navbar-default .navbar-brand span {
     color: #cfaa34;
 }
 
 
-/*
-.main-about{background-color: gray;
-color: white;
-background-image: url(../img/2.PNG);}
-.r{width: 100%;
-height:200px;
-background-color: aqua;
-background-image: url(../images/ipt10HlJzdk.jpg) !important;}
-*/
 
 
 

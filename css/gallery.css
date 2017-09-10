@@ -1,26 +1,23 @@
-body {
-    background-color:#eee;
-}
 
-#pinBoot {
-    position: relative;
-    max-width: 100%;
-    width: 100%;
-}
-img {
+.g img {
     width: 100%;
     max-width: 100%;
     height: auto;
 }
+.g img:hover {border: 1px}
+
+.g .item { margin: 5px 0px;}
+
+
+
+/*
 .white-panel {
     position: absolute;
     background: #eee;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 
 }
-/*
 stylize any heading tags withing white-panel below
-*/
 
 .white-panel h1 {
     font-size: 1em;
@@ -35,4 +32,4 @@ stylize any heading tags withing white-panel below
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-}
+}*/
