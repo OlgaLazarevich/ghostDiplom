@@ -1,50 +1,58 @@
 @font-face {
     font-family: g;
-    /* Имя шрифта */
-    src: url('Comfortaa-Bold.ttf');
-    /* Путь к файлу со шрифтом */
+    src: url('../fonts/Comfortaa-Bold.ttf');
 }
 
 @font-face {
     font-family: hard;
-    /* Имя шрифта */
-    src: url('ComfortaaLight.ttf');
-    /* Путь к файлу со шрифтом */
+    src: url('../fonts/ComfortaaLight.ttf');
 }
 
 @font-face {
     font-family: main;
-    /* Имя шрифта */
-    src: url('PT_Sans-Web-Regular.ttf');
-    /* Путь к файлу со шрифтом */
+    src: url('../fonts/PT_Sans-Web-Regular.ttf');
 }
-
-
 
 @font-face {
     font-family: main-b;
-    /* Имя шрифта */
-    src: url('PT_Sans-Web-Bold.ttf');
-    /* Путь к файлу со шрифтом */
+    src: url('../fonts/PT_Sans-Web-Bold.ttf');
 }
+
 body {background-color: white;}
 
-.main-2 {background-color: #272727;
+.main-2 {
+    background-color: #272727;
     background-image: url(../images/footer-bg.png);
-position: relative;
-z-index: 1;
-width: 100%;}
-
-.main-2::after {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+}
+.r{widows: 100%;
+margin: 0;}
+.r::after {
     content: "";
     height: 10px;
-    width: 100%;
+    width: calc(100% + 30px);
     background-image: url(../images/top.png);
     background-repeat: repeat-x;
     position: relative;
     z-index: 100;
-    top: 0px;
+    top: 5px;
+    left: -15px;
 }
+
+.r::before {
+    content: "";
+    height: 10px;
+    width: calc(100% + 30px);
+    background-image: url(../images/black-edge-top-light.png);
+    background-repeat: repeat-x;
+    position: relative;
+    top: -5px;
+    left:  -15px;
+   
+}
+
 
 .main{position: relative;
 z-index: 10;}
@@ -65,6 +73,7 @@ z-index: 10;}
     position: relative;
     top: 0px;
 }
+.navbar-default .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li.active>a:hover, .navbar-inverse .navbar-nav>li.active>a:hover, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {color: #e1b940;}
 
 
 .navbar .container-fluid {
@@ -174,15 +183,15 @@ z-index: 10;}
     
 }
 
-.footer::before {
+.ff::before {
     content: "";
     height: 10px;
-    width: 100%;
+    width: calc(100% + 30px);
     background-image: url(../images/black-edge-top-light.png);
     background-repeat: repeat-x;
     position: relative;
-    top: -40px;
-    left:  00px;
+    top: -9px;
+    left:  -15px;
 }
 
 .footer .col-md-12 {
@@ -270,7 +279,7 @@ body {
 
 .a-gall {
     padding: 5px;
-    border-radius: 4px;
+    
 }
 .a-gall:hover {background-color: #cfaa34;}
 
@@ -295,7 +304,6 @@ body {
     padding: 10px 5px;
     margin:  0 0 1% 0 ;  
     box-shadow: 0.1px 1px 6px rgba(0,0,0,0.5);
-    
     font-family: main;
 }
 
@@ -305,8 +313,10 @@ body {
 
 .news h1{font-family:  main-b;}
 
-.n-name {color: black;
-text-decoration: none;}
+.n-name {
+    color: black;
+    text-decoration: none;
+}
 
 .n-img {
     width: 100%;
@@ -326,20 +336,23 @@ text-decoration: none;}
 .news p {font-size:  12pt;}
 
 /* время*/
-.news  h2 { font-size: 11pt;
-    font-weight: 300; }
+.news h2 {
+    font-size: 11pt;
+    font-weight: 300;
+}
 
 .n-link {
     color: #cfaa34;
     text-decoration: none;
     border: 1px solid #E6E6E6;);
-    border-radius: 4px;
     padding: 5px 10px;
     font-family: main-b;
 }
 
-.n-link:hover {background-color:#cfaa34;
-text-decoration: none;}
+.n-link:hover {
+    background-color: #cfaa34;
+    text-decoration: none;
+}
 
 .col-md-8, .col-sm-8 {
     padding: 0 20px 10px 30px;
@@ -347,5 +360,38 @@ text-decoration: none;}
 
 
 
+/* хлебные крошки */ 
+.n ul li{display: inline-block;}
+.n a {
+    color: gray;
+    font-family: g;
+    text-decoration: none;
+}
 
+.n a:hover {color:#cfaa34;}
 
+.n {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -5px;
+}
+
+.g-menu {background-color: #181818;
+    padding: 0px 0px 0px 0px}
+.g-menu li {
+    display: inline-block;
+    padding: 0px 5%;
+}
+
+.g-menu li a {
+    text-decoration: none;
+    color: #999999;
+    font-family: hard;
+    font-size:  14px;
+}
+.g-menu li a:hover {
+    
+    color: #cfaa34;
+}
+.g-menu .act a{color: #cfaa34;}
