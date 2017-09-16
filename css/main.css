@@ -39,7 +39,6 @@ margin: 0;}
     z-index: 100;
     top: 5px;
     left: -15px;
-<<<<<<< HEAD
 }
 
 .r::before {
@@ -54,22 +53,6 @@ margin: 0;}
    
 }
 
-=======
-}
-
-.r::before {
-    content: "";
-    height: 10px;
-    width: calc(100% + 30px);
-    background-image: url(../images/black-edge-top-light.png);
-    background-repeat: repeat-x;
-    position: relative;
-    top: -5px;
-    left:  -15px;
-   
-}
-
->>>>>>> 6381b6bb1c86fb384876035835952eb486e679f8
 
 .main{position: relative;
 z-index: 10;}
@@ -371,7 +354,7 @@ body {
     text-decoration: none;
 }
 
-.col-md-8, .col-sm-8, .col-md-6 {
+.col-md-8, .col-sm-8 {
     padding: 0 20px 10px 30px;
 }
 
@@ -386,7 +369,6 @@ body {
 }
 
 .n a:hover {color:#cfaa34;}
-<<<<<<< HEAD
 
 .n {
     padding: 0;
@@ -397,20 +379,6 @@ body {
 
 .g-menu {background-color: #181818;
     padding: 0px 0px 0px 0px}
-=======
-
-.n {
-    padding: 0;
-    margin: 0;
-    position: relative;
-    top: -5px;
-}
-
-/* меню в разделах галереи */
-.g-menu {background-color: #181818;
-    padding: 5px 0px 1px 0px;
-border-top: 3px solid #666666;}
->>>>>>> 6381b6bb1c86fb384876035835952eb486e679f8
 .g-menu li {
     display: inline-block;
     padding: 0px 5%;
@@ -427,16 +395,3 @@ border-top: 3px solid #666666;}
     color: #cfaa34;
 }
 .g-menu .act a{color: #cfaa34;}
-<<<<<<< HEAD
-=======
-
-
-@media (max-width: 400px) {
-    .g-menu li {
-    display: block;
-    padding: 0px 5%;
-}
-    
-}
-    
->>>>>>> 6381b6bb1c86fb384876035835952eb486e679f8
